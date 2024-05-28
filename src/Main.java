@@ -11,6 +11,7 @@ public class Main {
         celsius = input.nextDouble();
         fahrenheit = celsius * 1.8 + 32;
         kelvin = celsius + 273.15;
-        System.out.printf("%.1f °C (Celsius) | %.1f °F (fahrenheit) | %.1f K (kelvin)\n", celsius, fahrenheit, kelvin);
+        Util.limpar();
+        System.out.printf("| %.1f °C (Celsius) \n| %.1f °F (fahrenheit) \n| %.1f K (kelvin)    \n", celsius, fahrenheit, kelvin);
     }
 }
